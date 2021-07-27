@@ -27,17 +27,11 @@ Output: ['a','b','c','d','e','f']
 ------------------------------------------------------------------------------------------------ */
 
 const addInTheMiddle = (arr, val) => {
-   let arr2=[];
-   arr.forEach((item,i) => {
-       const length=Math.ceil((arr.length/2));
-       if(i == length){
-           arr2.push(val);
-           arr2.push(item);
-       }else{
-           arr2.push(item)
-       }
+   let newAR=[];
+   arr.forEach((element,i) => {
+       
    });
-   return arr2
+
 };
 
 /* ------------------------------------------------------------------------------------------------

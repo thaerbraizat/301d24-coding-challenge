@@ -31,13 +31,13 @@ const addInTheMiddle = (arr, val) => {
    arr.forEach((item,i) => {
        const length=Math.ceil((arr.length/2));
        if(i == length){
-           arr2.push(val);
+           newAR.push(val);
            arr2.push(item);
        }else{
            arr2.push(item)
        }
    });
-   return arr2
+   return newAR
 };
 
 /* ------------------------------------------------------------------------------------------------
